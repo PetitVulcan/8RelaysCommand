@@ -1,6 +1,5 @@
 
----------------------- Control Panel -----------------------------
-
+# Control Panel
 
 Here you can find .stl files for printing the control panel
 
