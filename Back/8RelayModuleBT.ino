@@ -15,7 +15,6 @@
 
 // Define Bluetooth module
 SoftwareSerial BTSerial(13, 4); // RX | TX  = > Bluetooth-TX=13 BT-RX=4
-
 // Define push button inputs
 const int pushButton[] = {A0, A1, A2, A3, A4, A5, 2, 3};
 // Output pins where 8 relays will be connected
@@ -33,7 +32,7 @@ int elapsedTime;
 
 void setup()
 {
-  // Initialize serial monitor
+  // Initialize serial monitor (Uncomment for debug)
   //Serial.begin(9600);
   // Initialize elapsed time to 0
   elapsedTime = 0;
